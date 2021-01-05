@@ -11,7 +11,7 @@
                 <li class="nav-item our-work"><a href="#our-work" class="nav-link">@lang('navbar.services')</a></li>
 {{--                <li class="nav-item projects"><a href="#projects" class="nav-link">@lang('navbar.projects')</a></li>--}}
 {{--                <li class="nav-item testmonails"><a href="#testmonails" class="nav-link">@lang('navbar.testimonial')</a></li>--}}
-                <li class="nav-item supports"><a href="#supports" class="nav-link">@lang('navbar.partners')</a></li>
+                <li class="nav-item supports"><a href="#supports" class="nav-link">خبراتنا</a></li>
                 <li class="nav-item contact"><a href="#contact" class="nav-link">@lang('navbar.Conact')</a></li>
 
 {{--                <li class="nav-item dropdown">--}}

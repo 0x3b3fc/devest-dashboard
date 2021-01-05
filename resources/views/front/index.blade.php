@@ -40,7 +40,6 @@
         <section class="ftco-section ftco-portfolio about" id="about">
             <div class="row justify-content-center no-gutters">
                 <div class="col-md-12 heading-section text-center ftco-animate mb-5">
-                    <span class="subheading">{{$infoSection->sub_title}}</span>
                     <h2 class="mb-2">{{$infoSection->title}}</h2>
                 </div>
             </div>
@@ -60,7 +59,7 @@
                                             <p>
                                                 {{$infoSection->description_who_are_we}}
                                             </p>
-                                            <p><a href="#our-work" class="custom-btn">مجالات العمل</a></p>
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -81,9 +80,18 @@
                                             </div>
                                             <div class="absolute">
                                                 <p>
-                                                    {{$infoSection->description_how_we_work}}
+							
+							*العالم يتغير بأشخاص ملهمين.
+<br>
+*التطور المستمر هو أساس الريادة.
+<br>
+*الفريق المبدع يصنع نتائج استثنائية.
+<br>
+*الابتكار والتفكير خارج الصندوق؛ يجعلك تسبق الجميع.
+<br>
+
                                                 </p>
-                                                <p><a href="#our-work" class="custom-btn">مجالات العمل</a></p>
+                                                
                                             </div>
                                         </div>
                                     </div>
@@ -281,8 +289,7 @@
         <div class="container">
             <div class="row justify-content-center mb-5">
                 <div class="col-md-7 text-center heading-section ftco-animate">
-                    <span class="subheading">شركاءنا فى النجاح</span>
-                    <h2 class="mb-3">شركائنا</h2>
+                    <h2 class="mb-3">خبراتنا</h2>
                 </div>
             </div>
             <div class="row">
@@ -310,7 +317,6 @@
         <div class="row justify-content-center no-gutters">
             <div class="col-md-12 heading-section text-center ftco-animate mb-5">
                 <h2 class="mb-2">@lang('contact.contact us')</h2>
-                <span class="subheading">@lang('contact.Leave us a message and we will get back to you ASAP')</span>
             </div>
         </div>
         <div class="container">
@@ -342,7 +348,7 @@
                             </div>
                             <div class="col-md-6 col-sm-12">
                                 <div class="form-group">
-                                    <input type="text" name="subject" class="form-control subject" placeholder="@lang('contact.the subject')" required maxlength="100">
+                                    <input type="text" name="subject" class="form-control subject" placeholder="الخدمة المطلوبة" required maxlength="100">
                                     @error('subject')
                                     <div class="alert alert-danger">{{ $message }}</div>
                                     @enderror
@@ -362,7 +368,7 @@
                             </div>
                         </div>
                         <div class="form-group">
-                            <textarea required name="message" id=""  cols="30" rows="5" class="form-control messages" minlength="15" maxlength="500" placeholder="@lang('contact.the message')"></textarea>
+                            <textarea required name="message" id=""  cols="30" rows="5" class="form-control messages" minlength="15" maxlength="500" placeholder="اكتب رسالتك هنا"></textarea>
                             @error('messages')
                             <div class="alert alert-danger">{{ $message }}</div>
                             @enderror
@@ -370,7 +376,7 @@
                             <div class="alert alert-danger more-than">@lang('contact.This field must be no longer than thirty characters') </div>
                         </div>
                         <div class="form-group">
-                            <button type="submit" id="submit" class="submit btn btn-danger py-2 px-5 message"><i class="fas fa-arrow-left"></i> @lang('contact.send the message') </button>
+                            <button type="submit" id="submit" class="submit btn btn-danger py-2 px-5 message"><i class="fas fa-arrow-left"></i> اطلب خدمتك الآن </button>
                         </div>
                     </form>
                 </div>
@@ -403,8 +409,8 @@
                                 </div>
                                 <div class="col-md-10">
                                     <div class="box">
-                                        <p>@lang('contact.facebook')</p>
-                                        <p>info@devest.com</p>
+                                        <p>@lang('index.facebook')</p>
+                                        <p>Devest Co</p>
                                     </div>
                                 </div>
                             </div>
